@@ -1,0 +1,18 @@
+﻿{
+  "profile": {
+    "profileId": "PhantomJS",
+    "displayName": "PhantomJS",
+    "displayPriority": 3,
+    "canUseWithLocalWebdriver": true,
+    "canUseWithRemoteWebdriver": true
+  },
+  "activation": {
+    "browserName": "PhantomJS"
+  },
+  "capabilities": {
+    "remoteWebDriver": [
+      // [ "capName", "capValue" ]
+
+    ]
+  }
+}

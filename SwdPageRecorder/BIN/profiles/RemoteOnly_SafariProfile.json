@@ -1,0 +1,17 @@
+﻿{
+  "profile": {
+    "profileId": "Safari",
+    "displayName": "Safari",
+    "displayPriority": 10,
+    "canUseWithLocalWebdriver": false,
+    "canUseWithRemoteWebdriver": true
+  },
+  "activation": {
+    "browserName": "Safari"
+  },
+  "capabilities": {
+    "remoteWebDriver": [
+      // [ "capName", "capValue" ]
+    ]
+  }
+}

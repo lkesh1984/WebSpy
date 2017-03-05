@@ -1,0 +1,20 @@
+﻿{
+  "profile": {
+    "profileId": "SaucelabsFirefoxProfile",
+    "displayName": "Saucelabs Firefox (Default)",
+    "displayPriority": 20,
+    "canUseWithLocalWebdriver": false,
+    "canUseWithRemoteWebdriver": true
+  },
+  "activation": {
+    "browserName": "Firefox"
+  },
+  "capabilities": {
+    "remoteWebDriver": [
+      // [ "capName", "capValue" ],
+      [ "username", "YoName" ],
+      [ "accessKey", "65c6c894-958d-6666-bfee-2d70cb1a6603" ]
+
+    ]
+  }
+}

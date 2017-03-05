@@ -1,0 +1,18 @@
+﻿{
+  "profile": {
+    "profileId": "InternetExplorer",
+    "displayName": "InternetExplorer",
+    "displayPriority": 2,
+    "canUseWithLocalWebdriver": true,
+    "canUseWithRemoteWebdriver": true
+  },
+  "activation": {
+    "browserName": "InternetExplorer"
+  },
+  "capabilities": {
+    "remoteWebDriver": [
+      // [ "capName", "capValue" ]
+
+    ]
+  }
+}

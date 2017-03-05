@@ -1,0 +1,18 @@
+﻿{
+  "profile": {
+    "profileId": "Firefox",
+    "displayName": "Firefox",
+    "displayPriority": 1,
+    "canUseWithLocalWebdriver": true,
+    "canUseWithRemoteWebdriver": true
+  },
+  "activation": {
+    "browserName": "Firefox"
+  },
+  "capabilities": {
+    "remoteWebDriver": [
+      // [ "capName", "capValue" ]
+
+    ]
+  }
+}

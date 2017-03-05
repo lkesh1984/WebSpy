@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<WebSpyPageObject xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <PageObjectName>msn</PageObjectName>
+  <Version>2</Version>
+  <Items>
+    <WebElementDefinition>
+      <Name>test</Name>
+      <HowToSearch>XPath</HowToSearch>
+      <CssSelector>main#main &gt; div &gt; div &gt; div &gt; ul &gt; li:nth-of-type(3) &gt; a &gt; h3</CssSelector>
+      <Locator>id("main")/div[1]/div[1]/div[1]/ul[1]/li[3]/a[1]/h3[1]</Locator>
+      <HtmlId />
+      <Xpath>id("main")/div[1]/div[1]/div[1]/ul[1]/li[3]/a[1]/h3[1]</Xpath>
+      <HtmlTag>h3</HtmlTag>
+      <AlternativeFindBys />
+      <ReturnsCollection>false</ReturnsCollection>
+      <AllHtmlTagProperties />
+      <frame>
+        <Index>-1</Index>
+        <LocatorNameOrId>noFrameChosen</LocatorNameOrId>
+        <Title>noFrameChosen</Title>
+        <ParentFrame>noFrameChosen</ParentFrame>
+      </frame>
+    </WebElementDefinition>
+    <WebElementDefinition>
+      <Name>celeb</Name>
+      <HowToSearch>XPath</HowToSearch>
+      <CssSelector>main#main &gt; div:nth-of-type(5) &gt; ul &gt; li:nth-of-type(6) &gt; a &gt; img</CssSelector>
+      <Locator>id("main")/div[5]/ul[1]/li[6]/a[1]/img[1]</Locator>
+      <HtmlId />
+      <Xpath>id("main")/div[5]/ul[1]/li[6]/a[1]/img[1]</Xpath>
+      <HtmlTag>img</HtmlTag>
+      <AlternativeFindBys />
+      <ReturnsCollection>false</ReturnsCollection>
+      <AllHtmlTagProperties>
+        <Item>
+          <Key>
+            <string>title</string>
+          </Key>
+          <Value>
+            <string>Lisa Haydon and Dino Lalvani - Rex Images</string>
+          </Value>
+        </Item>
+        <Item>
+          <Key>
+            <string>class</string>
+          </Key>
+          <Value>
+            <string>loaded</string>
+          </Value>
+        </Item>
+        <Item>
+          <Key>
+            <string>alt</string>
+          </Key>
+          <Value>
+            <string />
+          </Value>
+        </Item>
+        <Item>
+          <Key>
+            <string>src</string>
+          </Key>
+          <Value>
+            <string>http://img-s-msn-com.akamaized.net/tenant/amp/entityid/AAm872c.img?h=250&amp;w=300&amp;m=6&amp;q=60&amp;u=t&amp;o=t&amp;l=f&amp;f=jpg</string>
+          </Value>
+        </Item>
+        <Item>
+          <Key>
+            <string>data-src</string>
+          </Key>
+          <Value>
+            <string>{"default":"//img-s-msn-com.akamaized.net/tenant/amp/entityid/AAm872c.img?h=250&amp;w=300&amp;m=6&amp;q=60&amp;u=t&amp;o=t&amp;l=f&amp;f=jpg"}</string>
+          </Value>
+        </Item>
+        <Item>
+          <Key>
+            <string>data-initial-set</string>
+          </Key>
+          <Value>
+            <string>true</string>
+          </Value>
+        </Item>
+      </AllHtmlTagProperties>
+      <frame>
+        <Index>-1</Index>
+        <LocatorNameOrId>noFrameChosen</LocatorNameOrId>
+        <Title>noFrameChosen</Title>
+        <ParentFrame>noFrameChosen</ParentFrame>
+      </frame>
+    </WebElementDefinition>
+  </Items>
+  <FrameDisplayName />
+  <FrameInternalName />
+  <PageTitle />
+</WebSpyPageObject>

@@ -1,0 +1,12 @@
+E:\Lokesh Work\PersonalWork\swd-recorder-master\Bin\WebSpyPageRecorder.ConfigurationManagement.dll
+E:\Lokesh Work\PersonalWork\swd-recorder-master\Bin\WebSpyPageRecorder.ConfigurationManagement.pdb
+E:\Lokesh Work\PersonalWork\swd-recorder-master\SwdPageRecorder\WebSpyPageRecorder.ConfigurationManagement\obj\Debug\WebSpyPageRecorder.ConfigurationManagement.dll
+E:\Lokesh Work\PersonalWork\swd-recorder-master\SwdPageRecorder\WebSpyPageRecorder.ConfigurationManagement\obj\Debug\WebSpyPageRecorder.ConfigurationManagement.pdb
+E:\Lokesh Work\PersonalWork\swd-recorder-master\SwdPageRecorder\WebSpyPageRecorder.ConfigurationManagement\bin\Debug\WebSpyPageRecorder.ConfigurationManagement.dll
+E:\Lokesh Work\PersonalWork\swd-recorder-master\SwdPageRecorder\WebSpyPageRecorder.ConfigurationManagement\bin\Debug\WebSpyPageRecorder.ConfigurationManagement.pdb
+E:\Lokesh Work\PersonalWork\swd-recorder-master\SwdPageRecorder\WebSpyPageRecorder.ConfigurationManagement\bin\Debug\Newtonsoft.Json.dll
+E:\Lokesh Work\PersonalWork\swd-recorder-master\SwdPageRecorder\WebSpyPageRecorder.ConfigurationManagement\bin\Debug\NLog.dll
+E:\Lokesh Work\PersonalWork\swd-recorder-master\SwdPageRecorder\WebSpyPageRecorder.ConfigurationManagement\bin\Debug\Newtonsoft.Json.xml
+E:\Lokesh Work\PersonalWork\swd-recorder-master\SwdPageRecorder\WebSpyPageRecorder.ConfigurationManagement\bin\Debug\NLog.xml
+E:\Lokesh Work\PersonalWork\swd-recorder-master\SwdPageRecorder\BIN\WebSpyPageRecorder.ConfigurationManagement.dll
+E:\Lokesh Work\PersonalWork\swd-recorder-master\SwdPageRecorder\BIN\WebSpyPageRecorder.ConfigurationManagement.pdb

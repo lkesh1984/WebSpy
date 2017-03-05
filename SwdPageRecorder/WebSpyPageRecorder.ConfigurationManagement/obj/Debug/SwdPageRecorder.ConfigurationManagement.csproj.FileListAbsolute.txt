@@ -1,0 +1,9 @@
+E:\Lokesh Work\PersonalWork\swd-recorder-master\swd-recorder-master\Bin\SwdPageRecorder.ConfigurationManagement.dll
+E:\Lokesh Work\PersonalWork\swd-recorder-master\swd-recorder-master\Bin\SwdPageRecorder.ConfigurationManagement.pdb
+E:\Lokesh Work\PersonalWork\swd-recorder-master\swd-recorder-master\SwdPageRecorder\SwdPageRecorder.ConfigurationManagement\obj\Debug\SwdPageRecorder.ConfigurationManagement.dll
+E:\Lokesh Work\PersonalWork\swd-recorder-master\swd-recorder-master\SwdPageRecorder\SwdPageRecorder.ConfigurationManagement\obj\Debug\SwdPageRecorder.ConfigurationManagement.pdb
+E:\Lokesh Work\PersonalWork\swd-recorder-master\swd-recorder-master\SwdPageRecorder\SwdPageRecorder.ConfigurationManagement\obj\Debug\SwdPageRecorder.ConfigurationManagement.csprojResolveAssemblyReference.cache
+E:\Lokesh Work\PersonalWork\swd-recorder-master\Bin\SwdPageRecorder.ConfigurationManagement.dll
+E:\Lokesh Work\PersonalWork\swd-recorder-master\Bin\SwdPageRecorder.ConfigurationManagement.pdb
+E:\Lokesh Work\PersonalWork\swd-recorder-master\SwdPageRecorder\SwdPageRecorder.ConfigurationManagement\obj\Debug\SwdPageRecorder.ConfigurationManagement.dll
+E:\Lokesh Work\PersonalWork\swd-recorder-master\SwdPageRecorder\SwdPageRecorder.ConfigurationManagement\obj\Debug\SwdPageRecorder.ConfigurationManagement.pdb

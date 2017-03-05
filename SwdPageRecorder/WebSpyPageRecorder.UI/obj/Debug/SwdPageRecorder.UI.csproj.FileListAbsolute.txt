@@ -1,0 +1,78 @@
+E:\Lokesh Work\PersonalWork\swd-recorder-master\swd-recorder-master\Bin\chromedriver.exe
+E:\Lokesh Work\PersonalWork\swd-recorder-master\swd-recorder-master\Bin\JavaScript\json2.js
+E:\Lokesh Work\PersonalWork\swd-recorder-master\swd-recorder-master\Bin\start_selenium_server.bat
+E:\Lokesh Work\PersonalWork\swd-recorder-master\swd-recorder-master\Bin\sample_ParserWebElements.js
+E:\Lokesh Work\PersonalWork\swd-recorder-master\swd-recorder-master\Bin\sample_ParserWebElements.lib.json2.js
+E:\Lokesh Work\PersonalWork\swd-recorder-master\swd-recorder-master\Bin\Snippets\UI\enable all INPUTs on the page.js
+E:\Lokesh Work\PersonalWork\swd-recorder-master\swd-recorder-master\Bin\Snippets\UI\00 hello.js
+E:\Lokesh Work\PersonalWork\swd-recorder-master\swd-recorder-master\Bin\CodeTemplates\[CSharp] Explicit Finders - Driver.FindElement(By).cshtml
+E:\Lokesh Work\PersonalWork\swd-recorder-master\swd-recorder-master\Bin\CodeTemplates\[CSharp] Locator constants in the static class.cshtml
+E:\Lokesh Work\PersonalWork\swd-recorder-master\swd-recorder-master\Bin\CodeTemplates\[CSharp] SWD Starter PageObjects with DataForm.cshtml
+E:\Lokesh Work\PersonalWork\swd-recorder-master\swd-recorder-master\Bin\CodeTemplates\[CSharp] SWD Starter PageObjects.cshtml
+E:\Lokesh Work\PersonalWork\swd-recorder-master\swd-recorder-master\Bin\CodeTemplates\[Java] SWD StarterJ PageObjects.cshtml
+E:\Lokesh Work\PersonalWork\swd-recorder-master\swd-recorder-master\Bin\CodeTemplates\[Java] WebDriver.Support PageObject.cshtml
+E:\Lokesh Work\PersonalWork\swd-recorder-master\swd-recorder-master\Bin\CodeTemplates\[CSharp] WebDriver.Support PageObject (Default).cshtml
+E:\Lokesh Work\PersonalWork\swd-recorder-master\swd-recorder-master\Bin\CodeTemplates\[Powershell] Generic.cshtml
+E:\Lokesh Work\PersonalWork\swd-recorder-master\swd-recorder-master\Bin\CodeTemplates\[Python] Simple PageObject.cshtml
+E:\Lokesh Work\PersonalWork\swd-recorder-master\swd-recorder-master\Bin\CodeTemplates\[Ruby] PageObject Gem.cshtml
+E:\Lokesh Work\PersonalWork\swd-recorder-master\swd-recorder-master\Bin\CodeTemplates\Run External Tool.cshtml
+E:\Lokesh Work\PersonalWork\swd-recorder-master\swd-recorder-master\Bin\NLog.config
+E:\Lokesh Work\PersonalWork\swd-recorder-master\swd-recorder-master\Bin\JavaScript\ElementSearch.js
+E:\Lokesh Work\PersonalWork\swd-recorder-master\swd-recorder-master\Bin\SwdPageRecorder.UI.exe.config
+E:\Lokesh Work\PersonalWork\swd-recorder-master\swd-recorder-master\Bin\SwdPageRecorder.UI.exe
+E:\Lokesh Work\PersonalWork\swd-recorder-master\swd-recorder-master\Bin\SwdPageRecorder.UI.pdb
+E:\Lokesh Work\PersonalWork\swd-recorder-master\swd-recorder-master\SwdPageRecorder\SwdPageRecorder.UI\obj\Debug\SwdPageRecorder.UI.csprojResolveAssemblyReference.cache
+E:\Lokesh Work\PersonalWork\swd-recorder-master\swd-recorder-master\SwdPageRecorder\SwdPageRecorder.UI\obj\Debug\SwdPageRecorder.UI.Properties.Resources.resources
+E:\Lokesh Work\PersonalWork\swd-recorder-master\swd-recorder-master\SwdPageRecorder\SwdPageRecorder.UI\obj\Debug\SwdPageRecorder.UI.SwdMain.Popups.BrowserScreenView.resources
+E:\Lokesh Work\PersonalWork\swd-recorder-master\swd-recorder-master\SwdPageRecorder\SwdPageRecorder.UI\obj\Debug\SwdPageRecorder.UI.SwdMainView.resources
+E:\Lokesh Work\PersonalWork\swd-recorder-master\swd-recorder-master\SwdPageRecorder\SwdPageRecorder.UI\obj\Debug\SwdPageRecorder.UI.BrowserSettingsTabView.resources
+E:\Lokesh Work\PersonalWork\swd-recorder-master\swd-recorder-master\SwdPageRecorder\SwdPageRecorder.UI\obj\Debug\SwdPageRecorder.UI.PlayGroundView.resources
+E:\Lokesh Work\PersonalWork\swd-recorder-master\swd-recorder-master\SwdPageRecorder\SwdPageRecorder.UI\obj\Debug\SwdPageRecorder.UI.JavaScriptEditorView.resources
+E:\Lokesh Work\PersonalWork\swd-recorder-master\swd-recorder-master\SwdPageRecorder\SwdPageRecorder.UI\obj\Debug\SwdPageRecorder.UI.PageObjectSourceCodeView.resources
+E:\Lokesh Work\PersonalWork\swd-recorder-master\swd-recorder-master\SwdPageRecorder\SwdPageRecorder.UI\obj\Debug\SwdPageRecorder.UI.HtmlDomTesterView.resources
+E:\Lokesh Work\PersonalWork\swd-recorder-master\swd-recorder-master\SwdPageRecorder\SwdPageRecorder.UI\obj\Debug\SwdPageRecorder.UI.PageObjectDefinitionView.resources
+E:\Lokesh Work\PersonalWork\swd-recorder-master\swd-recorder-master\SwdPageRecorder\SwdPageRecorder.UI\obj\Debug\SwdPageRecorder.UI.FullHtmlSourceTabView.resources
+E:\Lokesh Work\PersonalWork\swd-recorder-master\swd-recorder-master\SwdPageRecorder\SwdPageRecorder.UI\obj\Debug\SwdPageRecorder.UI.SelectorsEditView.resources
+E:\Lokesh Work\PersonalWork\swd-recorder-master\swd-recorder-master\SwdPageRecorder\SwdPageRecorder.UI\obj\Debug\SwdPageRecorder.UI.SwitchToPopupView.resources
+E:\Lokesh Work\PersonalWork\swd-recorder-master\swd-recorder-master\SwdPageRecorder\SwdPageRecorder.UI\obj\Debug\SwdPageRecorder.UI.csproj.GenerateResource.Cache
+E:\Lokesh Work\PersonalWork\swd-recorder-master\swd-recorder-master\SwdPageRecorder\SwdPageRecorder.UI\obj\Debug\SwdPageRecorder.UI.exe
+E:\Lokesh Work\PersonalWork\swd-recorder-master\swd-recorder-master\SwdPageRecorder\SwdPageRecorder.UI\obj\Debug\SwdPageRecorder.UI.pdb
+E:\Lokesh Work\PersonalWork\swd-recorder-master\Bin\chromedriver.exe
+E:\Lokesh Work\PersonalWork\swd-recorder-master\Bin\JavaScript\json2.js
+E:\Lokesh Work\PersonalWork\swd-recorder-master\Bin\start_selenium_server.bat
+E:\Lokesh Work\PersonalWork\swd-recorder-master\Bin\sample_ParserWebElements.js
+E:\Lokesh Work\PersonalWork\swd-recorder-master\Bin\sample_ParserWebElements.lib.json2.js
+E:\Lokesh Work\PersonalWork\swd-recorder-master\Bin\Snippets\UI\enable all INPUTs on the page.js
+E:\Lokesh Work\PersonalWork\swd-recorder-master\Bin\Snippets\UI\00 hello.js
+E:\Lokesh Work\PersonalWork\swd-recorder-master\Bin\CodeTemplates\[CSharp] Explicit Finders - Driver.FindElement(By).cshtml
+E:\Lokesh Work\PersonalWork\swd-recorder-master\Bin\CodeTemplates\[CSharp] Locator constants in the static class.cshtml
+E:\Lokesh Work\PersonalWork\swd-recorder-master\Bin\CodeTemplates\[CSharp] SWD Starter PageObjects with DataForm.cshtml
+E:\Lokesh Work\PersonalWork\swd-recorder-master\Bin\CodeTemplates\[CSharp] SWD Starter PageObjects.cshtml
+E:\Lokesh Work\PersonalWork\swd-recorder-master\Bin\CodeTemplates\[Java] SWD StarterJ PageObjects.cshtml
+E:\Lokesh Work\PersonalWork\swd-recorder-master\Bin\CodeTemplates\[Java] WebDriver.Support PageObject.cshtml
+E:\Lokesh Work\PersonalWork\swd-recorder-master\Bin\CodeTemplates\[CSharp] WebDriver.Support PageObject (Default).cshtml
+E:\Lokesh Work\PersonalWork\swd-recorder-master\Bin\CodeTemplates\[Powershell] Generic.cshtml
+E:\Lokesh Work\PersonalWork\swd-recorder-master\Bin\CodeTemplates\[Python] Simple PageObject.cshtml
+E:\Lokesh Work\PersonalWork\swd-recorder-master\Bin\CodeTemplates\[Ruby] PageObject Gem.cshtml
+E:\Lokesh Work\PersonalWork\swd-recorder-master\Bin\CodeTemplates\Run External Tool.cshtml
+E:\Lokesh Work\PersonalWork\swd-recorder-master\Bin\NLog.config
+E:\Lokesh Work\PersonalWork\swd-recorder-master\Bin\JavaScript\ElementSearch.js
+E:\Lokesh Work\PersonalWork\swd-recorder-master\Bin\SwdPageRecorder.UI.exe.config
+E:\Lokesh Work\PersonalWork\swd-recorder-master\Bin\SwdPageRecorder.UI.exe
+E:\Lokesh Work\PersonalWork\swd-recorder-master\Bin\SwdPageRecorder.UI.pdb
+E:\Lokesh Work\PersonalWork\swd-recorder-master\SwdPageRecorder\SwdPageRecorder.UI\obj\Debug\SwdPageRecorder.UI.csprojResolveAssemblyReference.cache
+E:\Lokesh Work\PersonalWork\swd-recorder-master\SwdPageRecorder\SwdPageRecorder.UI\obj\Debug\SwdPageRecorder.UI.Properties.Resources.resources
+E:\Lokesh Work\PersonalWork\swd-recorder-master\SwdPageRecorder\SwdPageRecorder.UI\obj\Debug\SwdPageRecorder.UI.csproj.GenerateResource.Cache
+E:\Lokesh Work\PersonalWork\swd-recorder-master\SwdPageRecorder\SwdPageRecorder.UI\obj\Debug\SwdPageRecorder.UI.exe
+E:\Lokesh Work\PersonalWork\swd-recorder-master\SwdPageRecorder\SwdPageRecorder.UI\obj\Debug\SwdPageRecorder.UI.pdb
+E:\Lokesh Work\PersonalWork\swd-recorder-master\SwdPageRecorder\SwdPageRecorder.UI\obj\Debug\WebSpyPageRecorder.UI.WebSpyMain.Popups.BrowserScreenView.resources
+E:\Lokesh Work\PersonalWork\swd-recorder-master\SwdPageRecorder\SwdPageRecorder.UI\obj\Debug\WebSpyPageRecorder.UI.WebSpyMainView.resources
+E:\Lokesh Work\PersonalWork\swd-recorder-master\SwdPageRecorder\SwdPageRecorder.UI\obj\Debug\WebSpyPageRecorder.UI.BrowserSettingsTabView.resources
+E:\Lokesh Work\PersonalWork\swd-recorder-master\SwdPageRecorder\SwdPageRecorder.UI\obj\Debug\WebSpyPageRecorder.UI.PlayGroundView.resources
+E:\Lokesh Work\PersonalWork\swd-recorder-master\SwdPageRecorder\SwdPageRecorder.UI\obj\Debug\WebSpyPageRecorder.UI.JavaScriptEditorView.resources
+E:\Lokesh Work\PersonalWork\swd-recorder-master\SwdPageRecorder\SwdPageRecorder.UI\obj\Debug\WebSpyPageRecorder.UI.PageObjectSourceCodeView.resources
+E:\Lokesh Work\PersonalWork\swd-recorder-master\SwdPageRecorder\SwdPageRecorder.UI\obj\Debug\WebSpyPageRecorder.UI.HtmlDomTesterView.resources
+E:\Lokesh Work\PersonalWork\swd-recorder-master\SwdPageRecorder\SwdPageRecorder.UI\obj\Debug\WebSpyPageRecorder.UI.PageObjectDefinitionView.resources
+E:\Lokesh Work\PersonalWork\swd-recorder-master\SwdPageRecorder\SwdPageRecorder.UI\obj\Debug\WebSpyPageRecorder.UI.FullHtmlSourceTabView.resources
+E:\Lokesh Work\PersonalWork\swd-recorder-master\SwdPageRecorder\SwdPageRecorder.UI\obj\Debug\WebSpyPageRecorder.UI.SelectorsEditView.resources
+E:\Lokesh Work\PersonalWork\swd-recorder-master\SwdPageRecorder\SwdPageRecorder.UI\obj\Debug\WebSpyPageRecorder.UI.SwitchToPopupView.resources
