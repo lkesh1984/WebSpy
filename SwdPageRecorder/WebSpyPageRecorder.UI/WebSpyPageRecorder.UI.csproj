@@ -260,7 +260,7 @@
     <None Include="CodeTemplates\[CSharp] Explicit Finders - Driver.FindElement%28By%29.cshtml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="CodeTemplates\[CSharp] Locator constants in the static class.cshtml">
+    <!-- <None Include="CodeTemplates\[CSharp] Locator constants in the static class.cshtml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="CodeTemplates\[CSharp] WebSpy Starter PageObjects with DataForm.cshtml">
@@ -286,10 +286,10 @@
     </None>
     <None Include="CodeTemplates\[Ruby] PageObject Gem.cshtml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="CodeTemplates\Run External Tool.cshtml">
+    </None> -->
+    <!-- <None Include="CodeTemplates\Run External Tool.cshtml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
+    </None> -->
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

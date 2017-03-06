@@ -26,6 +26,7 @@ namespace WebSpyPageRecorder.UI
 
         private void btnGenerateSourceCode_Click(object sender, EventArgs e)
         {
+            WebSpyMainView objWebSpy = this.ParentForm as WebSpyMainView;
             presenter.GenerateSourceCodeForPageObject();
         }
 
@@ -42,6 +43,7 @@ namespace WebSpyPageRecorder.UI
             if (files.Length > 0)
             {
                 cbCodeTemplates.Items.AddRange(files);
+                cbCodeTemplates.SelectedIndex = 0;
             }
 
         }

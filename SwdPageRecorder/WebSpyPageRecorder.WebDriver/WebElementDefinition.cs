@@ -53,6 +53,9 @@ namespace WebSpyPageRecorder.WebDriver
         [DisplayName("Frame")]
         public SimpleFrame frame { get; set; }
 
+        [DisplayName("Action")]
+        public string Action { get; set; }
+
         public WebElementDefinition()
         {
             ReturnsCollection = false;

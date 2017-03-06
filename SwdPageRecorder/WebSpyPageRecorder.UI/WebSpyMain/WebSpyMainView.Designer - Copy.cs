@@ -64,6 +64,12 @@
             this.htmlDomTesterView1 = new WebSpyPageRecorder.UI.HtmlDomTesterView();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.pageObjectSourceCodeView1 = new WebSpyPageRecorder.UI.PageObjectSourceCodeView();
+            this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.fullHtmlSourceTabView1 = new WebSpyPageRecorder.UI.FullHtmlSourceTabView();
+            this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.javaScriptEditorView1 = new WebSpyPageRecorder.UI.JavaScriptEditorView();
+            this.tabPage6 = new System.Windows.Forms.TabPage();
+            this.playGroundView1 = new WebSpyPageRecorder.UI.PlayGroundView();
             this.pageObjectDefinitionView = new WebSpyPageRecorder.UI.PageObjectDefinitionView();
             this.groupBox1.SuspendLayout();
             this.pnlLoadingBar.SuspendLayout();
@@ -79,6 +85,9 @@
             this.grpVisualSearch.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.tabPage3.SuspendLayout();
+            this.tabPage4.SuspendLayout();
+            this.tabPage5.SuspendLayout();
+            this.tabPage6.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -108,7 +117,6 @@
             this.btnOpenBrowserPreview.Size = new System.Drawing.Size(35, 23);
             this.btnOpenBrowserPreview.TabIndex = 5;
             this.btnOpenBrowserPreview.UseVisualStyleBackColor = true;
-            this.btnOpenBrowserPreview.Visible = false;
             this.btnOpenBrowserPreview.Click += new System.EventHandler(this.btnOpenBrowserPreview_Click);
             // 
             // btnOpenScreenshotFolder
@@ -120,7 +128,6 @@
             this.btnOpenScreenshotFolder.Size = new System.Drawing.Size(35, 23);
             this.btnOpenScreenshotFolder.TabIndex = 4;
             this.btnOpenScreenshotFolder.UseVisualStyleBackColor = true;
-            this.btnOpenScreenshotFolder.Visible = false;
             this.btnOpenScreenshotFolder.Click += new System.EventHandler(this.btnOpenScreenshotFolder_Click);
             // 
             // btnTakePageScreenshot
@@ -132,7 +139,6 @@
             this.btnTakePageScreenshot.Size = new System.Drawing.Size(35, 23);
             this.btnTakePageScreenshot.TabIndex = 3;
             this.btnTakePageScreenshot.UseVisualStyleBackColor = true;
-            this.btnTakePageScreenshot.Visible = false;
             this.btnTakePageScreenshot.Click += new System.EventHandler(this.btnTakePageScreenshot_Click);
             // 
             // linkLabel1
@@ -145,7 +151,6 @@
             this.linkLabel1.TabIndex = 2;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "Visit project\'s home site";
-            this.linkLabel1.Visible = false;
             this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
             // btnBrowser_Go
@@ -242,6 +247,9 @@
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage2);
             this.tabControl1.Controls.Add(this.tabPage3);
+            this.tabControl1.Controls.Add(this.tabPage4);
+            this.tabControl1.Controls.Add(this.tabPage5);
+            this.tabControl1.Controls.Add(this.tabPage6);
             this.tabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tabControl1.Location = new System.Drawing.Point(0, 0);
             this.tabControl1.Name = "tabControl1";
@@ -469,6 +477,67 @@
             this.pageObjectSourceCodeView1.Size = new System.Drawing.Size(732, 398);
             this.pageObjectSourceCodeView1.TabIndex = 0;
             // 
+            // tabPage4
+            // 
+            this.tabPage4.Controls.Add(this.fullHtmlSourceTabView1);
+            this.tabPage4.Location = new System.Drawing.Point(4, 22);
+            this.tabPage4.Name = "tabPage4";
+            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage4.Size = new System.Drawing.Size(740, 404);
+            this.tabPage4.TabIndex = 3;
+            this.tabPage4.Text = "HTML Source";
+            this.tabPage4.UseVisualStyleBackColor = true;
+            // 
+            // fullHtmlSourceTabView1
+            // 
+            this.fullHtmlSourceTabView1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.fullHtmlSourceTabView1.Location = new System.Drawing.Point(6, 6);
+            this.fullHtmlSourceTabView1.Name = "fullHtmlSourceTabView1";
+            this.fullHtmlSourceTabView1.Size = new System.Drawing.Size(728, 392);
+            this.fullHtmlSourceTabView1.TabIndex = 0;
+            // 
+            // tabPage5
+            // 
+            this.tabPage5.Controls.Add(this.javaScriptEditorView1);
+            this.tabPage5.Location = new System.Drawing.Point(4, 22);
+            this.tabPage5.Name = "tabPage5";
+            this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage5.Size = new System.Drawing.Size(740, 404);
+            this.tabPage5.TabIndex = 4;
+            this.tabPage5.Text = "JavaScript Snippets";
+            this.tabPage5.UseVisualStyleBackColor = true;
+            // 
+            // javaScriptEditorView1
+            // 
+            this.javaScriptEditorView1.AutoSize = true;
+            this.javaScriptEditorView1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.javaScriptEditorView1.Location = new System.Drawing.Point(3, 3);
+            this.javaScriptEditorView1.Name = "javaScriptEditorView1";
+            this.javaScriptEditorView1.Size = new System.Drawing.Size(734, 398);
+            this.javaScriptEditorView1.TabIndex = 0;
+            // 
+            // tabPage6
+            // 
+            this.tabPage6.Controls.Add(this.playGroundView1);
+            this.tabPage6.Location = new System.Drawing.Point(4, 22);
+            this.tabPage6.Name = "tabPage6";
+            this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage6.Size = new System.Drawing.Size(740, 404);
+            this.tabPage6.TabIndex = 5;
+            this.tabPage6.Text = "WebDriver Playground";
+            this.tabPage6.UseVisualStyleBackColor = true;
+            // 
+            // playGroundView1
+            // 
+            this.playGroundView1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.playGroundView1.Enabled = false;
+            this.playGroundView1.Location = new System.Drawing.Point(3, 3);
+            this.playGroundView1.Name = "playGroundView1";
+            this.playGroundView1.Size = new System.Drawing.Size(734, 398);
+            this.playGroundView1.TabIndex = 0;
+            // 
             // pageObjectDefinitionView
             // 
             this.pageObjectDefinitionView.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -508,6 +577,10 @@
             this.grpVisualSearch.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.tabPage3.ResumeLayout(false);
+            this.tabPage4.ResumeLayout(false);
+            this.tabPage5.ResumeLayout(false);
+            this.tabPage5.PerformLayout();
+            this.tabPage6.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -520,6 +593,7 @@
         public System.Windows.Forms.TabPage tabPage2;
         public System.Windows.Forms.TabPage tabPage3;
         public System.Windows.Forms.TextBox txtBrowserUrl;
+        public System.Windows.Forms.TabPage tabPage4;
         public System.Windows.Forms.GroupBox grpVisualSearch;
         public System.Windows.Forms.Button btnStartVisualSearch;
         public System.Windows.Forms.TextBox txtVisualSearchResult;
@@ -529,6 +603,7 @@
         private System.Windows.Forms.SplitContainer splitContainer1;
         public BrowserSettingsTabView browserSettingsTab1;
         public HtmlDomTesterView htmlDomTesterView1;
+        public FullHtmlSourceTabView fullHtmlSourceTabView1;
         private System.Windows.Forms.Label label1;
         public SelectorsEditView selectorsEditView;
         private System.Windows.Forms.Panel pnlLoadingBar;
@@ -542,6 +617,10 @@
         private System.Windows.Forms.ComboBox ddlFrames;
         private System.Windows.Forms.Button btnRefresh;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.TabPage tabPage5;
+        private JavaScriptEditorView javaScriptEditorView1;
+        private System.Windows.Forms.TabPage tabPage6;
+        private PlayGroundView playGroundView1;
         private System.Windows.Forms.Button btnSwitchToWindowCode;
         private System.Windows.Forms.Button btnSwitchToFrameCode;
         private System.Windows.Forms.ToolTip ttipSwitchToFrameCode;

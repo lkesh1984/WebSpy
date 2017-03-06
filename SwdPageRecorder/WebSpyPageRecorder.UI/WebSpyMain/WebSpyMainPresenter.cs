@@ -155,6 +155,7 @@ namespace WebSpyPageRecorder.UI
         internal void SetBrowserUrl(string browserUrl)
         {
             Driver.Navigate().GoToUrl(browserUrl);
+            //
         }
 
 
@@ -210,6 +211,7 @@ namespace WebSpyPageRecorder.UI
                     Locator = (emptyHtmlId) ? addElementCommand.ElementXPath: addElementCommand.ElementId,
                     CssSelector = addElementCommand.ElementCssSelector,
                     frame = simpleFrame,
+                    Action = addElementCommand.Action
                 };
                 bool addNew = true;
                 Presenters.SelectorsEditPresenter.UpdateWebElementWithAdditionalProperties(element);

@@ -28,33 +28,36 @@
     }
 }
 
+using OpenQA.Selenium;
+using OpenQA.Selenium.Interactions;
+using OpenQA.Selenium.Interactions.Internal;
+using OpenQA.Selenium.Support.UI;
+
+[TestFixture]
 public class @Raw(@Model.PageObject.PageObjectName)
 {
     // Initialize Driver in any convenient way: Constructor, shared static class etc...
     protected IWebDriver Driver { get; set; }
 
-@foreach (var element in @Model.PageObject.Items ) 
-{
-    if(element.ReturnsCollection) 
+    [Test]
+    public void TestMethod1()
     {
-    <text>
-    protected IList<IWebElement> @Raw(@element.Name)
-    {
-        get { return Driver.FindElements(By.@Raw(@GetCSharpBy(@element.How)) (@@"@Raw(@QuoteLocator(@element.Locator))") ); }
+        Driver.Navigate().GoToUrl("@Model.PageObject.PageUrl")
+        @foreach (var element in @Model.PageObject.Items)
+        {
+                if (element.Action == "singleclick")
+                {
+                    <text>
+                        Driver.FindElements(By.@Raw(@GetCSharpBy(@element.How)) (@@"@Raw(@QuoteLocator(@element.Locator))")).Click();
+                    </text>
+                }
+                else if (element.Action == "doubleclick")
+                {
+                    <text>
+                        Actions act = new Actions(Driver);
+                        act.doubleClick(Driver.findElement(By.@Raw(@GetCSharpBy(@element.How)) (@@"@Raw(@QuoteLocator(@element.Locator))"))).build().perform();
+                    </text>
+                }
+         }
     }
-    </text>
-
-    }
-    else
-    {
-    <text>
-    protected IWebElement @Raw(@element.Name)
-    {
-        get { return Driver.FindElement(By.@Raw(@GetCSharpBy(@element.How)) (@@"@Raw(@QuoteLocator(@element.Locator))") ); }
-    }
-    </text>
-    }
-
-} 
-
-}
+ }

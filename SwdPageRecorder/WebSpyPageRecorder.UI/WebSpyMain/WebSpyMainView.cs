@@ -97,6 +97,13 @@ namespace WebSpyPageRecorder.UI
         private void btnBrowser_Go_Click(object sender, EventArgs e)
         {
             presenter.SetBrowserUrl(txtBrowserUrl.Text);
+            this.BrowserUrl = txtBrowserUrl.Text;
+        }
+
+        public string BrowserUrl
+        {
+            get;
+            set;
         }
 
 

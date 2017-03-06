@@ -210,7 +210,7 @@ getElementId = function(element) {
   };
 
   rightClickHandler = function(event) {
-    var JsonData, body, eventPreventingResult, mxy, path, root, target, txy, xpath, css_selector, id;
+      var JsonData, body, eventPreventingResult, mxy, path, root, target, txy, xpath, css_selector, id, elmtType;
     hello("rightClickHandler");
     if (document.WebSpy_Page_Recorder == null) {
       return;
@@ -228,16 +228,18 @@ getElementId = function(element) {
       id = getElementId(target);
       body = document.getElementsByTagName('body')[0];
       xpath = path;
+      elmtType = target.tagName + '[' + target.type + ']';
       JsonData = {
-        "Command": "GetXPathFromElement",
-        "Caller": "EventListener : mousedown",
-        "CommandId": pseudoGuid(),
-        "CssSelector": css_selector,
-        "ElementId": id,
-        "XPathValue": xpath
+          "Command": "GetXPathFromElement",
+          "Caller": "EventListener : mousedown",
+          "CommandId": pseudoGuid(),
+          "CssSelector": css_selector,
+          "ElementId": id,
+          "XPathValue": xpath,
+          "ElementType": elmtType
       };
       createCommand(JsonData);
-      document.WebSpy_Page_Recorder.showPos(event, xpath, css_selector, id);
+      document.WebSpy_Page_Recorder.showPos(event, xpath, css_selector, id, elmtType);
       eventPreventingResult = preventEvent(event);
       bye("rightClickHandler");
       return eventPreventingResult;
@@ -266,7 +268,7 @@ getElementId = function(element) {
       return bye("displayWebSpyForm");
     };
 
-    WebSpy_Page_Recorder.prototype.showPos = function(event, xpath, css_selector, id) {
+    WebSpy_Page_Recorder.prototype.showPos = function(event, xpath, css_selector, id, elmtType) {
       var x, y;
       hello("showPos");
       if (window.event) {
@@ -280,11 +282,23 @@ getElementId = function(element) {
       y -= 2;
       y = y + 15;
       this.displayWebSpyForm(x, y);
+      document.getElementById("WebSpyPR_PopUp_ElementName").innerHTML = elmtType;
       document.getElementById("WebSpyPR_PopUp_XPathLocator").innerHTML = xpath;
       document.getElementById("WebSpyPR_PopUp_CssSelector").innerHTML = css_selector;
       document.getElementById("WebSpyPR_PopUp_ElementId").innerHTML = id;
       document.getElementById("WebSpyPR_PopUp_ElementText").innerHTML = pseudoGuid();
       document.getElementById("WebSpyPR_PopUp_CodeIDText").value = '';
+
+      if (elmtType.toLowerCase().indexOf('button') >= 0) {
+          document.getElementById('actions').style.display = '';
+      }
+      else {
+          document.getElementById('actions').style.display = 'none';
+      }
+      if (elmtType.toLowerCase().indexOf('text') >= 0)
+      {
+
+      }
       say(x + ";" + y);
       return bye("showPos");
     };
@@ -327,7 +341,7 @@ getElementId = function(element) {
               <td><span id="WebSpyPR_PopUp_ElementId">Element</span></td>\
             </tr>\
             <tr>\
-              <td>Text:</td>\
+              <td>Guid:</td>\
               <td><span id="WebSpyPR_PopUp_ElementText">Element</span></td>\
             </tr>\
             <tr>\
@@ -338,6 +352,13 @@ getElementId = function(element) {
               <td>Css:</td>\
               <td><span id="WebSpyPR_PopUp_CssSelector">Element</span></td>\
             </tr>\
+            <tr id="actions">\
+              <td>Actions:</td>\
+              <td>\
+                <input type="radio" name="action" value="singleclick" id="singleclick"> Single Click&nbsp;\
+                <input type="radio" name="action" value="doubleclick" id="doubleclick"> Double Click &nbsp;<br>\
+            </td>\
+            </tr>\
             </table>\
         <input type="button" value="Add element" onclick="document.WebSpy_Page_Recorder.addElement()">\
         ';
@@ -345,12 +366,19 @@ getElementId = function(element) {
     };
 
     WebSpy_Page_Recorder.prototype.addElement = function() {
-      var JsonData, XPathLocatorElement, codeIDTextElement, htmlIdElement;
+        var JsonData, XPathLocatorElement, codeIDTextElement, htmlIdElement, action;
       hello("addElement");
       codeIDTextElement = document.getElementById("WebSpyPR_PopUp_CodeIDText");
       htmlIdElement = document.getElementById("WebSpyPR_PopUp_ElementId");
       CssSelectorElement = document.getElementById("WebSpyPR_PopUp_CssSelector");
       XPathLocatorElement = document.getElementById("WebSpyPR_PopUp_XPathLocator");
+      if (document.getElementById('singleclick').checked == true)
+      {
+          action = "singleclick";
+      }
+      else if (document.getElementById('doubleclick').checked == true) {
+          action = "doubleclick";
+      }
       JsonData = {
         "Command": "AddElement",
         "Caller": "addElement",
@@ -358,7 +386,8 @@ getElementId = function(element) {
         "ElementCodeName": codeIDTextElement.value,
         "ElementId": (htmlIdElement.hasChildNodes())?htmlIdElement.firstChild.nodeValue:"",
         "ElementCssSelector": CssSelectorElement.firstChild.nodeValue,
-        "ElementXPath": XPathLocatorElement.firstChild.nodeValue
+        "ElementXPath": XPathLocatorElement.firstChild.nodeValue,
+        "Action": action
       };
       createCommand(JsonData);
       return bye("addElement >");

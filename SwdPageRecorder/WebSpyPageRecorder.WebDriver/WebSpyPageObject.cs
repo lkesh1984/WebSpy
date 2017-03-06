@@ -22,6 +22,8 @@ namespace WebSpyPageRecorder.WebDriver
 
         public string PageTitle { get; set; }
 
+        public string PageUrl { get; set; }
+
         public WebSpyPageObject()
         {
             PageObjectName = "WebSpyPageObjectClass";

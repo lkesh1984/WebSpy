@@ -121,16 +121,6 @@ E:\Lokesh Work\PersonalWork\swd-recorder-master\SwdPageRecorder\BIN\sample_Parse
 E:\Lokesh Work\PersonalWork\swd-recorder-master\SwdPageRecorder\BIN\Snippets\UI\enable all INPUTs on the page.js
 E:\Lokesh Work\PersonalWork\swd-recorder-master\SwdPageRecorder\BIN\Snippets\UI\00 hello.js
 E:\Lokesh Work\PersonalWork\swd-recorder-master\SwdPageRecorder\BIN\CodeTemplates\[CSharp] Explicit Finders - Driver.FindElement(By).cshtml
-E:\Lokesh Work\PersonalWork\swd-recorder-master\SwdPageRecorder\BIN\CodeTemplates\[CSharp] Locator constants in the static class.cshtml
-E:\Lokesh Work\PersonalWork\swd-recorder-master\SwdPageRecorder\BIN\CodeTemplates\[CSharp] WebSpy Starter PageObjects with DataForm.cshtml
-E:\Lokesh Work\PersonalWork\swd-recorder-master\SwdPageRecorder\BIN\CodeTemplates\[CSharp] WebSpy Starter PageObjects.cshtml
-E:\Lokesh Work\PersonalWork\swd-recorder-master\SwdPageRecorder\BIN\CodeTemplates\[Java] WebSpy StarterJ PageObjects.cshtml
-E:\Lokesh Work\PersonalWork\swd-recorder-master\SwdPageRecorder\BIN\CodeTemplates\[Java] WebDriver.Support PageObject.cshtml
-E:\Lokesh Work\PersonalWork\swd-recorder-master\SwdPageRecorder\BIN\CodeTemplates\[CSharp] WebDriver.Support PageObject (Default).cshtml
-E:\Lokesh Work\PersonalWork\swd-recorder-master\SwdPageRecorder\BIN\CodeTemplates\[Powershell] Generic.cshtml
-E:\Lokesh Work\PersonalWork\swd-recorder-master\SwdPageRecorder\BIN\CodeTemplates\[Python] Simple PageObject.cshtml
-E:\Lokesh Work\PersonalWork\swd-recorder-master\SwdPageRecorder\BIN\CodeTemplates\[Ruby] PageObject Gem.cshtml
-E:\Lokesh Work\PersonalWork\swd-recorder-master\SwdPageRecorder\BIN\CodeTemplates\Run External Tool.cshtml
 E:\Lokesh Work\PersonalWork\swd-recorder-master\SwdPageRecorder\BIN\TestResource\frameworks_demo\case-bootstrap\demob.htm
 E:\Lokesh Work\PersonalWork\swd-recorder-master\SwdPageRecorder\BIN\TestResource\frameworks_demo\case-bootstrap\demob_files\bootstrap.min.js
 E:\Lokesh Work\PersonalWork\swd-recorder-master\SwdPageRecorder\BIN\TestResource\frameworks_demo\case-bootstrap\demob_files\docs.min.js

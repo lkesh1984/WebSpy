@@ -142,7 +142,8 @@ namespace WebSpyPageRecorder.UI
             var pageObject = new WebSpyPageObject();
 
             string pageObjectName = "MyPage";
-            
+            pageObject.PageUrl = (this.ParentForm as WebSpyMainView).BrowserUrl;
+
             if (tvWebElements.Nodes.Count > 0)
             {
                 string rootNodeText = tvWebElements.Nodes[0].Text;

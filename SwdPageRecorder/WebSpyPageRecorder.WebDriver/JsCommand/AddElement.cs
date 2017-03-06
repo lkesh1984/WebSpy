@@ -11,5 +11,6 @@ namespace WebSpyPageRecorder.WebDriver.JsCommand
         public string ElementCodeName {get; set;}
         public string ElementXPath { get; set; }
         public string ElementCssSelector { get; set; }
+        public string Action { get; set; }
     }
 }
